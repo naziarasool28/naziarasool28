@@ -548,6 +548,19 @@ section[id]{ scroll-margin-top: 76px; }
 .cert-card .issuer{ color:var(--accent-text); font-size:0.85rem; font-weight:600; }
 .cert-card .cert-title{ font-family:var(--font-display); font-weight:700; font-size:1rem; margin-top:0.1rem; }
 
+/* ---------- testimonial cards ---------- */
+.testimonial-card{ display:flex; flex-direction:column; height:100%; }
+.stars{ position:relative; display:inline-block; font-size:1rem; line-height:1; letter-spacing:2px; }
+.stars::before{ content:"★★★★★"; color:var(--line); }
+.stars::after{ content:"★★★★★"; color:var(--accent); position:absolute; left:0; top:0; width:calc(var(--rating) / 5 * 100%); overflow:hidden; white-space:nowrap; }
+.testimonial-meta{ display:flex; align-items:center; gap:0.6rem; margin-top:0.5rem; flex-wrap:wrap; }
+.testimonial-meta .rating-num{ font-weight:700; color:var(--text); }
+.testimonial-meta .sep{ color:var(--line); }
+.testimonial-meta .date-range{ color:var(--text-muted); font-size:0.85rem; }
+.testimonial-card blockquote{ margin:var(--sp-3) 0; font-style:italic; color:var(--text-muted); font-size:0.94rem; }
+.testimonial-card .endorsed-label{ font-size:var(--fs-caption); text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); font-weight:700; margin-bottom:0.5rem; }
+.testimonial-card .tag-row{ display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:auto; }
+
 /* ---------- testimonial placeholder ---------- */
 .testimonial-placeholder{
   text-align:center; max-width:52ch; margin:0 auto;

@@ -78,13 +78,14 @@
 
 /* ---------- reset ---------- */
 *, *::before, *::after{ box-sizing: border-box; }
-html{ scroll-behavior:smooth; }
+html{ scroll-behavior:smooth; overflow-x:hidden; }
 @media (prefers-reduced-motion: reduce){
   html{ scroll-behavior:auto; }
   *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
 }
 body{
   margin:0;
+  overflow-x:hidden;
   background:var(--bg);
   color:var(--text);
   font-family:var(--font-body);
@@ -535,6 +536,9 @@ section[id]{ scroll-margin-top: 76px; }
 }
 .checklist-grid li svg{ width:18px; height:18px; stroke:var(--accent); fill:none; stroke-width:2; flex-shrink:0; margin-top:0.15rem; }
 @media (max-width:700px){ .checklist-grid{ grid-template-columns:1fr; } }
+
+.nowrap-heading{ white-space:nowrap; }
+@media (max-width:640px){ .nowrap-heading{ white-space:normal; } }
 
 /* ---------- highlight band (fixed-dark, theme-independent) ---------- */
 .highlight-band{

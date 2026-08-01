@@ -12,7 +12,8 @@
     var attr = root.getAttribute("data-theme");
     if (attr === "dark") return true;
     if (attr === "light") return false;
-    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    // dark is the default look; only explicit light OS preference opts out
+    return !window.matchMedia("(prefers-color-scheme: light)").matches;
   }
   function updateThemeIcon() {
     if (themeToggle) themeToggle.textContent = isDark() ? "☀" : "◐";
@@ -168,9 +169,11 @@
         return;
       }
 
+      var reason = form.querySelector("#reason");
+      var reasonLine = reason && reason.value ? "Re: " + reason.value + "\n\n" : "";
       var mailSubject = encodeURIComponent(subject.value.trim());
       var mailBody = encodeURIComponent(
-        msg.value.trim() + "\n\n— " + name.value.trim() + " (" + email.value.trim() + ")"
+        reasonLine + msg.value.trim() + "\n\n— " + name.value.trim() + " (" + email.value.trim() + ")"
       );
       window.location.href = "mailto:naziarasool28@gmail.com?subject=" + mailSubject + "&body=" + mailBody;
 

@@ -8,10 +8,10 @@
 <meta property="og:title" content="Tool Setup — Nazia Rasool" />
 <meta property="og:description" content="The delivery, cloud, and no-code tooling I configure for startup teams." />
 <meta property="og:type" content="website" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23E2725B'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='26' font-weight='700' fill='%231B1B1F' text-anchor='middle'%3ENR%3C/text%3E%3C/svg%3E" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23131015'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='26' font-weight='700' fill='%23E2725B' text-anchor='middle'%3ENR%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -41,7 +41,7 @@
 
   <section class="section-tight">
     <div class="container container--narrow">
-      <p class="eyebrow reveal">How Delivery Actually Runs</p>
+      <div class="kicker reveal"><span class="bar"></span><p class="eyebrow">How Delivery Actually Runs</p></div>
       <h1 class="reveal">The tools I set up on day one</h1>
       <p class="reveal" style="color:var(--text-muted);font-size:var(--fs-lead);margin-top:var(--sp-2);">
         Part of fractional PM work is arriving at a startup with no process and standing one up fast. Here's the
@@ -54,24 +54,28 @@
   <section class="section-alt">
     <div class="container">
       <div class="section-head reveal">
-        <p class="eyebrow">Delivery &amp; Collaboration</p>
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">Delivery &amp; Collaboration</p></div>
         <h2>Sprint tracking &amp; stakeholder communication</h2>
         <p class="lead">Standardized workflows and automated reporting — the setup that cut planning overhead by 5+ hours a week on my current engagement.</p>
       </div>
       <div class="grid-4">
         <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"></rect><rect x="9" y="2" width="6" height="4" rx="1"></rect><line x1="8" y1="11" x2="16" y2="11"></line><line x1="8" y1="15" x2="16" y2="15"></line></svg></div>
           <h3 style="font-size:1rem;">Jira</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Sprint planning, backlog grooming, and release tracking — usually split into separate developer and operations workspaces for clarity.</p>
         </div>
         <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><polygon points="12 3 21 8 12 13 3 8 12 3"></polygon><polyline points="3 14 12 19 21 14"></polyline></svg></div>
           <h3 style="font-size:1rem;">Trello</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Lightweight boards for smaller teams and early-stage founders who don't need Jira's overhead yet.</p>
         </div>
         <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="18" cy="9" r="2.3"></circle><path d="M15.5 14.2c2.6.3 4.5 2.5 4.5 5.1"></path></svg></div>
           <h3 style="font-size:1rem;">Microsoft Teams</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Daily standups, stakeholder updates, and async delivery reporting for founders and leadership.</p>
         </div>
         <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"></rect><line x1="12" y1="2" x2="12" y2="6"></line><line x1="12" y1="18" x2="12" y2="22"></line><line x1="2" y1="12" x2="6" y2="12"></line><line x1="18" y1="12" x2="22" y2="12"></line></svg></div>
           <h3 style="font-size:1rem;">Claude (AI)</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">AI-assisted documentation and delivery support inside the Scrum framework — part of how I keep planning overhead down.</p>
         </div>
@@ -82,22 +86,44 @@
   <section>
     <div class="container">
       <div class="section-head reveal">
-        <p class="eyebrow">Cloud Infrastructure</p>
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">Cloud Infrastructure</p></div>
         <h2>Multi-cloud coordination</h2>
         <p class="lead">I work directly with DevOps across all three major providers — currently maintaining 99.9% uptime while cutting monthly cloud costs by 15% through resource optimization.</p>
       </div>
       <div class="grid-3">
-        <div class="card reveal">
+        <div class="card card--accent reveal">
+          <div class="icon-badge icon-badge--lg"><svg viewBox="0 0 24 24"><path d="M6 17a4 4 0 010-8 5 5 0 019.6-1.5A4.5 4.5 0 0118 17H6z"></path></svg></div>
           <h3 style="font-size:1rem;">Microsoft Azure</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Core infrastructure coordination and cost tracking alongside engineering and DevOps.</p>
         </div>
-        <div class="card reveal">
+        <div class="card card--accent reveal">
+          <div class="icon-badge icon-badge--lg"><svg viewBox="0 0 24 24"><path d="M6 17a4 4 0 010-8 5 5 0 019.6-1.5A4.5 4.5 0 0118 17H6z"></path></svg></div>
           <h3 style="font-size:1rem;">AWS</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Resource optimization and uptime monitoring for production workloads.</p>
         </div>
-        <div class="card reveal">
+        <div class="card card--accent reveal">
+          <div class="icon-badge icon-badge--lg"><svg viewBox="0 0 24 24"><path d="M6 17a4 4 0 010-8 5 5 0 019.6-1.5A4.5 4.5 0 0118 17H6z"></path></svg></div>
           <h3 style="font-size:1rem;">Google Cloud</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Additional infrastructure alignment for teams running multi-cloud by design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stat-band">
+    <div class="container">
+      <div class="grid-3 reveal">
+        <div class="stat-box">
+          <div class="num">99.9%</div>
+          <div class="label">Uptime maintained across multi-cloud infrastructure</div>
+        </div>
+        <div class="stat-box">
+          <div class="num">15%</div>
+          <div class="label">Monthly cloud cost reduction via resource optimization</div>
+        </div>
+        <div class="stat-box">
+          <div class="num">5+ hrs</div>
+          <div class="label">Planning overhead cut per week with standardized tooling</div>
         </div>
       </div>
     </div>
@@ -106,24 +132,28 @@
   <section class="section-alt">
     <div class="container">
       <div class="section-head reveal">
-        <p class="eyebrow">No-Code &amp; Low-Code</p>
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">No-Code &amp; Low-Code</p></div>
         <h2>Fast, disciplined MVP builds</h2>
         <p class="lead">For founders who need to launch in weeks, not quarters — the same scoping, QA, and UAT rigor as a traditional engineering build.</p>
       </div>
       <div class="grid-4">
         <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><polygon points="13 2 4 14 11 14 10 22 20 10 13 10 13 2"></polygon></svg></div>
           <h3 style="font-size:1rem;">Bubble</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Full-featured web app builds for MVPs with real backend logic.</p>
         </div>
         <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"></rect><line x1="11" y1="18" x2="13" y2="18"></line></svg></div>
           <h3 style="font-size:1rem;">FlutterFlow</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Cross-platform mobile MVPs, scoped and shipped on a fixed timeline.</p>
         </div>
         <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><line x1="3" y1="12" x2="21" y2="12"></line><path d="M12 3a14 14 0 010 18 14 14 0 010-18z"></path></svg></div>
           <h3 style="font-size:1rem;">Webflow</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Marketing sites and front-ends that need to look production-ready fast.</p>
         </div>
         <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1"></rect><rect x="13" y="4" width="7" height="7" rx="1"></rect><rect x="4" y="13" width="7" height="7" rx="1"></rect><rect x="13" y="13" width="7" height="7" rx="1"></rect></svg></div>
           <h3 style="font-size:1rem;">Retool</h3>
           <p style="color:var(--text-muted);font-size:0.88rem;">Internal tools and admin panels — often the fastest way to unblock an operations team.</p>
         </div>
@@ -137,7 +167,7 @@
         <h2 style="max-width:26ch;margin:0 auto;">No process yet? That's normal — and fixable in week one.</h2>
         <div class="btn-row" style="justify-content:center;margin-top:var(--sp-4);">
           <a class="btn btn--primary" href="contact.html">Get in Touch</a>
-          <a class="btn btn--ghost" href="services.html">See Services</a>
+          <a class="btn btn--secondary" href="services.html">See Services</a>
         </div>
       </div>
     </div>
@@ -182,6 +212,15 @@
     </div>
   </div>
 </footer>
+
+<div class="status-bar">
+  <div class="taglines">
+    <span>Technical Project Management</span>
+    <span>AI &amp; LLM Delivery</span>
+    <span>Agile Transformation</span>
+  </div>
+  <span class="status-pill"><span class="dot"></span>Open to new fractional engagements</span>
+</div>
 
 <script src="script.js"></script>
 </body>

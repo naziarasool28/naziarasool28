@@ -536,6 +536,32 @@ section[id]{ scroll-margin-top: 76px; }
 .checklist-grid li svg{ width:18px; height:18px; stroke:var(--accent); fill:none; stroke-width:2; flex-shrink:0; margin-top:0.15rem; }
 @media (max-width:700px){ .checklist-grid{ grid-template-columns:1fr; } }
 
+/* ---------- highlight band (fixed-dark, theme-independent) ---------- */
+.highlight-band{
+  background:#14111A;
+  border-radius:var(--radius-lg);
+  padding:var(--sp-4) var(--sp-3);
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+}
+.highlight-band .item{
+  padding:0 var(--sp-3);
+  text-align:center;
+  border-left:1px solid rgba(255,255,255,0.12);
+}
+.highlight-band .item:first-child{ border-left:none; }
+.highlight-band h3{ color:#F0916F; font-size:1.15rem; margin-bottom:0.5rem; }
+.highlight-band p{ color:#B8B2AE; font-size:0.9rem; margin:0; }
+@media (max-width:800px){
+  .highlight-band{ grid-template-columns:1fr; }
+  .highlight-band .item{ border-left:none; border-top:1px solid rgba(255,255,255,0.12); padding:var(--sp-3) 0 0; margin-top:var(--sp-3); }
+  .highlight-band .item:first-child{ border-top:none; margin-top:0; padding-top:0; }
+}
+
+/* ---------- large-number step card ---------- */
+.step-card .big-num{ font-family:var(--font-display); font-size:2.4rem; font-weight:700; color:var(--accent-text); line-height:1; }
+.step-card h3{ margin-top:var(--sp-2); font-size:1.1rem; }
+
 /* ---------- numbered process card ---------- */
 .process-card{ position:relative; }
 .process-card .step-num{

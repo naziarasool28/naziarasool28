@@ -524,6 +524,38 @@ section{ padding:var(--sp-8) 0; }
 .info-row svg{ width:18px; height:18px; stroke:var(--accent); fill:none; stroke-width:1.8; flex-shrink:0; margin-top:0.15rem; }
 .info-row .k{ font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); display:block; margin-bottom:0.15rem; }
 
+/* ---------- scroll anchors ---------- */
+section[id]{ scroll-margin-top: 76px; }
+
+/* ---------- checklist grid (About — what makes me different) ---------- */
+.checklist-grid{ display:grid; grid-template-columns:1fr 1fr; gap:0 var(--sp-5); }
+.checklist-grid li{
+  display:flex; gap:0.7rem; align-items:flex-start;
+  padding:0.9rem 0; border-bottom:1px solid var(--line);
+}
+.checklist-grid li svg{ width:18px; height:18px; stroke:var(--accent); fill:none; stroke-width:2; flex-shrink:0; margin-top:0.15rem; }
+@media (max-width:700px){ .checklist-grid{ grid-template-columns:1fr; } }
+
+/* ---------- numbered process card ---------- */
+.process-card{ position:relative; }
+.process-card .step-num{
+  position:absolute; top:var(--sp-3); right:var(--sp-3);
+  font-family:var(--font-display); font-weight:700; font-size:0.8rem; color:var(--text-muted);
+}
+
+/* ---------- certification / credential card ---------- */
+.cert-card{ display:flex; flex-direction:column; gap:0.3rem; }
+.cert-card .issuer{ color:var(--accent-text); font-size:0.85rem; font-weight:600; }
+.cert-card .cert-title{ font-family:var(--font-display); font-weight:700; font-size:1rem; margin-top:0.1rem; }
+
+/* ---------- testimonial placeholder ---------- */
+.testimonial-placeholder{
+  text-align:center; max-width:52ch; margin:0 auto;
+  padding:var(--sp-5); border:1px dashed var(--line); border-radius:var(--radius-lg);
+}
+.testimonial-placeholder .quote-mark{ font-family:var(--font-display); font-size:3rem; color:var(--accent); line-height:1; }
+.testimonial-placeholder p{ color:var(--text-muted); font-style:italic; }
+
 /* ---------- utility ---------- */
 .stack{ display:flex; flex-direction:column; }
 .grid-2{ display:grid; grid-template-columns:1fr 1fr; gap:var(--sp-4); }

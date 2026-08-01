@@ -44,6 +44,35 @@
     });
   }
 
+  /* ---------- scroll-spy nav highlighting (single-page anchors) ---------- */
+  if (navLinks) {
+    var anchorLinks = Array.prototype.slice.call(navLinks.querySelectorAll('a[href^="#"]'));
+    var spySections = anchorLinks
+      .map(function (a) {
+        var id = a.getAttribute("href").slice(1);
+        var el = document.getElementById(id);
+        return el ? { link: a, el: el } : null;
+      })
+      .filter(Boolean);
+
+    if (spySections.length && "IntersectionObserver" in window) {
+      var spyObserver = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            var match = spySections.find(function (s) { return s.el === entry.target; });
+            if (!match) return;
+            if (entry.isIntersecting) {
+              anchorLinks.forEach(function (a) { a.removeAttribute("aria-current"); });
+              match.link.setAttribute("aria-current", "page");
+            }
+          });
+        },
+        { rootMargin: "-40% 0px -55% 0px", threshold: 0 }
+      );
+      spySections.forEach(function (s) { spyObserver.observe(s.el); });
+    }
+  }
+
   /* ---------- scroll reveal ---------- */
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var revealEls = document.querySelectorAll(".reveal");

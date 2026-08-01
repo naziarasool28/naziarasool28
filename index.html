@@ -19,15 +19,16 @@
 
 <header class="site-header">
   <div class="nav-row">
-    <a class="brand" href="index.html">Nazia <span>Rasool</span></a>
+    <a class="brand" href="#top">Nazia <span>Rasool</span></a>
     <nav aria-label="Primary">
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="tool-setup.html">Tool Setup</a></li>
-        <li><a href="case-studies.html">Case Studies</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="nav-actions">
@@ -39,7 +40,8 @@
 
 <main id="main">
 
-  <section class="hero">
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="top">
     <div class="container" style="display:flex;gap:var(--sp-6);align-items:center;flex-wrap:wrap;">
       <div style="flex:1;min-width:320px;">
         <p class="eyebrow reveal">PMP® · SCRUM MASTER · AI &amp; LLM DELIVERY · GCC EXPERIENCE</p>
@@ -58,10 +60,8 @@
         </div>
 
         <div class="btn-row reveal" style="margin-top:var(--sp-4);">
-          <a class="btn btn--primary" href="contact.html">
-            Get in Touch
-          </a>
-          <a class="btn btn--secondary" href="case-studies.html">View Case Studies</a>
+          <a class="btn btn--primary" href="#contact">Get in Touch</a>
+          <a class="btn btn--secondary" href="#projects">View Case Studies</a>
         </div>
 
         <ul class="trust-row reveal">
@@ -81,30 +81,8 @@
     </div>
   </section>
 
-  <section class="stat-band">
-    <div class="container">
-      <div class="grid-4 reveal">
-        <div class="stat-box">
-          <div class="num">11+</div>
-          <div class="label">Years in IT &amp; software delivery</div>
-        </div>
-        <div class="stat-box">
-          <div class="num">7+</div>
-          <div class="label">Years leading AI &amp; enterprise delivery</div>
-        </div>
-        <div class="stat-box">
-          <div class="num">PMP®</div>
-          <div class="label">Certified Project Management Professional</div>
-        </div>
-        <div class="stat-box">
-          <div class="num">99.9%</div>
-          <div class="label">Uptime maintained on current AI platform</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
+  <!-- ===================== WHO I HELP ===================== -->
+  <section class="section-alt" id="who-i-help">
     <div class="container">
       <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
         <div class="kicker"><span class="bar"></span><p class="eyebrow">Who I Help</p></div>
@@ -146,80 +124,713 @@
     </div>
   </section>
 
-  <section class="section-alt">
+  <!-- ===================== SERVICES ===================== -->
+  <section id="services">
     <div class="container">
       <div class="section-head reveal">
         <div class="kicker"><span class="bar"></span><p class="eyebrow">What I Offer</p></div>
         <h2>Four ways to get senior delivery support</h2>
         <p class="lead">Pick one, or combine them — most clients start with fractional PM and add AI governance or product ownership as they scale.</p>
       </div>
-      <div class="grid-4">
-        <div class="card card--accent reveal">
-          <div class="icon-badge"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"></rect><rect x="9" y="2" width="6" height="4" rx="1"></rect><line x1="8" y1="11" x2="16" y2="11"></line><line x1="8" y1="15" x2="16" y2="15"></line></svg></div>
-          <h3 style="font-size:1.05rem;">Fractional PM &amp; Agile Leadership</h3>
-          <p style="color:var(--text-muted);font-size:0.9rem;">Your part-time project manager — senior delivery leadership at startup-friendly cost.</p>
-          <a class="btn btn--ghost" href="services.html#fractional-pm" style="margin-top:0.5rem;">Learn more →</a>
-        </div>
-        <div class="card card--accent reveal">
-          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M12 2l7 3v6c0 5-3.2 8.5-7 11-3.8-2.5-7-6-7-11V5z"></path><polyline points="9 12 11 14 15 10"></polyline></svg></div>
-          <h3 style="font-size:1.05rem;">AI &amp; LLM Project Management</h3>
-          <p style="color:var(--text-muted);font-size:0.9rem;">Specialist delivery management for AI products, with governance built in.</p>
-          <a class="btn btn--ghost" href="services.html#ai-llm-pm" style="margin-top:0.5rem;">Learn more →</a>
-        </div>
-        <div class="card card--accent reveal">
-          <div class="icon-badge"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="5"></circle><circle cx="12" cy="12" r="1"></circle></svg></div>
-          <h3 style="font-size:1.05rem;">Fractional Product Owner</h3>
-          <p style="color:var(--text-muted);font-size:0.9rem;">One person for "what to build" and "how to ship it."</p>
-          <a class="btn btn--ghost" href="services.html#product-owner" style="margin-top:0.5rem;">Learn more →</a>
-        </div>
-        <div class="card card--accent reveal">
-          <div class="icon-badge"><svg viewBox="0 0 24 24"><polygon points="13 2 4 14 11 14 10 22 20 10 13 10 13 2"></polygon></svg></div>
-          <h3 style="font-size:1.05rem;">MVP Launch Management</h3>
-          <p style="color:var(--text-muted);font-size:0.9rem;">From idea to launched product in 6–12 weeks — fixed scope, fixed fee.</p>
-          <a class="btn btn--ghost" href="services.html#mvp-launch" style="margin-top:0.5rem;">Learn more →</a>
-        </div>
+      <div class="grid-2" style="row-gap:var(--sp-4);">
+
+        <article class="card card--accent reveal" id="fractional-pm">
+          <div class="icon-badge icon-badge--lg"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"></rect><rect x="9" y="2" width="6" height="4" rx="1"></rect><line x1="8" y1="11" x2="16" y2="11"></line><line x1="8" y1="15" x2="16" y2="15"></line></svg></div>
+          <span class="badge">01 · Delivery</span>
+          <h3 style="font-size:1.25rem;margin-top:var(--sp-2);">Fractional Project Management &amp; Agile Leadership</h3>
+          <p style="font-style:italic;color:var(--accent-text);font-size:0.92rem;margin-top:0.4rem;">Your part-time project manager — senior delivery leadership at startup-friendly cost.</p>
+          <p style="font-size:var(--fs-caption);text-transform:uppercase;letter-spacing:0.1em;color:var(--text-muted);font-weight:700;margin-top:var(--sp-3);">Deliverables</p>
+          <ul style="margin-top:0.4rem;padding-left:1.1rem;color:var(--text-muted);font-size:0.94rem;">
+            <li style="margin-bottom:0.5rem;">End-to-end project management for your product or team, 10–20 hours per week.</li>
+            <li style="margin-bottom:0.5rem;">Sprint planning, standups, backlog management, and release coordination — run for you or coached into your team lead.</li>
+            <li>Clear stakeholder updates and delivery reporting, so founders stay informed without micromanaging.</li>
+          </ul>
+          <a class="btn btn--ghost" href="#contact" style="margin-top:var(--sp-3);">Get in Touch →</a>
+        </article>
+
+        <article class="card card--accent reveal" id="ai-llm-pm">
+          <div class="icon-badge icon-badge--lg"><svg viewBox="0 0 24 24"><path d="M12 2l7 3v6c0 5-3.2 8.5-7 11-3.8-2.5-7-6-7-11V5z"></path><polyline points="9 12 11 14 15 10"></polyline></svg></div>
+          <span class="badge">02 · AI Delivery</span>
+          <h3 style="font-size:1.25rem;margin-top:var(--sp-2);">AI &amp; LLM Project Management with Built-In Governance</h3>
+          <p style="font-style:italic;color:var(--accent-text);font-size:0.92rem;margin-top:0.4rem;">Specialist delivery management for AI products — from model iteration to responsible-AI guardrails.</p>
+          <p style="font-size:var(--fs-caption);text-transform:uppercase;letter-spacing:0.1em;color:var(--text-muted);font-weight:700;margin-top:var(--sp-3);">Deliverables</p>
+          <ul style="margin-top:0.4rem;padding-left:1.1rem;color:var(--text-muted);font-size:0.94rem;">
+            <li style="margin-bottom:0.5rem;">Manage AI-specific delivery challenges: model evaluation cycles, prompt and agent iteration, and data pipeline dependencies.</li>
+            <li style="margin-bottom:0.5rem;">Set realistic expectations between demo-quality and production-quality AI features.</li>
+            <li>Establish AI governance, data handling practices, and risk controls that satisfy enterprise clients and investors — essential for fintech and healthcare startups.</li>
+          </ul>
+          <a class="btn btn--ghost" href="#contact" style="margin-top:var(--sp-3);">Get in Touch →</a>
+        </article>
+
+        <article class="card card--accent reveal" id="product-owner">
+          <div class="icon-badge icon-badge--lg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="5"></circle><circle cx="12" cy="12" r="1"></circle></svg></div>
+          <span class="badge">03 · Product</span>
+          <h3 style="font-size:1.25rem;margin-top:var(--sp-2);">Fractional Product Owner &amp; Product Roadmapping</h3>
+          <p style="font-style:italic;color:var(--accent-text);font-size:0.92rem;margin-top:0.4rem;">One person for "what to build" and "how to ship it."</p>
+          <p style="font-size:var(--fs-caption);text-transform:uppercase;letter-spacing:0.1em;color:var(--text-muted);font-weight:700;margin-top:var(--sp-3);">Deliverables</p>
+          <ul style="margin-top:0.4rem;padding-left:1.1rem;color:var(--text-muted);font-size:0.94rem;">
+            <li style="margin-bottom:0.5rem;">Product requirement documents (PRDs), user stories, and backlog prioritization using proven frameworks (RICE, MoSCoW).</li>
+            <li style="margin-bottom:0.5rem;">Facilitated roadmap and scoping workshops that turn your vision into a sequenced, estimated delivery plan.</li>
+            <li>Ongoing product ownership that keeps limited engineering capacity focused on business value.</li>
+          </ul>
+          <a class="btn btn--ghost" href="#contact" style="margin-top:var(--sp-3);">Get in Touch →</a>
+        </article>
+
+        <article class="card card--accent reveal" id="mvp-launch">
+          <div class="icon-badge icon-badge--lg"><svg viewBox="0 0 24 24"><polygon points="13 2 4 14 11 14 10 22 20 10 13 10 13 2"></polygon></svg></div>
+          <span class="badge">04 · Launch</span>
+          <h3 style="font-size:1.25rem;margin-top:var(--sp-2);">MVP Launch Management (Custom &amp; No-Code Builds)</h3>
+          <p style="font-style:italic;color:var(--accent-text);font-size:0.92rem;margin-top:0.4rem;">From idea to launched product in 6–12 weeks — fixed scope, fixed fee.</p>
+          <p style="font-size:var(--fs-caption);text-transform:uppercase;letter-spacing:0.1em;color:var(--text-muted);font-weight:700;margin-top:var(--sp-3);">Deliverables</p>
+          <ul style="margin-top:0.4rem;padding-left:1.1rem;color:var(--text-muted);font-size:0.94rem;">
+            <li style="margin-bottom:0.5rem;">Full lifecycle management from scoping to go-live, including QA and user acceptance testing (UAT).</li>
+            <li style="margin-bottom:0.5rem;">Experienced with both traditional engineering builds and no-code / low-code platforms (Bubble, FlutterFlow, Webflow, Retool).</li>
+            <li>Ideal for founders with no internal PM support who need fast, disciplined execution.</li>
+          </ul>
+          <a class="btn btn--ghost" href="#contact" style="margin-top:var(--sp-3);">Get in Touch →</a>
+        </article>
+
       </div>
     </div>
   </section>
 
-  <section>
+  <!-- ===================== PROCESS ===================== -->
+  <section class="section-alt" id="process">
     <div class="container">
-      <div class="section-head reveal">
-        <div class="kicker"><span class="bar"></span><p class="eyebrow">Recent Work</p></div>
-        <h2>Featured case studies</h2>
-        <p class="lead">A sample of the products and programs I've delivered — full list on the Case Studies page.</p>
+      <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">How I Work</p></div>
+        <h2>From scoped to shipped</h2>
+        <p class="lead">A clear, structured process designed to eliminate uncertainty and deliver results.</p>
       </div>
       <div class="grid-3">
-        <div class="card case-card reveal">
-          <span class="tag">AI &amp; SaaS</span>
-          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">Voxbee.ai</h3>
-          <p style="color:var(--text-muted);font-size:0.9rem;">AI-powered content creation OS serving 3,000+ active users — 99.9% uptime, 30% faster sprint velocity.</p>
+        <div class="card process-card reveal">
+          <span class="step-num">01</span>
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg></div>
+          <h3 style="font-size:1.05rem;margin-top:var(--sp-1);">Discovery Call</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">We scope your goals, current bottlenecks, and the engagement model — hourly, retainer, or fixed-fee — that fits.</p>
         </div>
-        <div class="card case-card reveal">
-          <span class="tag">Fintech</span>
-          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">Alrajhi Bank Customer App</h3>
-          <p style="color:var(--text-muted);font-size:0.9rem;">Digital transformation delivery for Saudi Arabia's largest banking platform, at PwC.</p>
+        <div class="card process-card reveal">
+          <span class="step-num">02</span>
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="18" cy="9" r="2.3"></circle><path d="M15.5 14.2c2.6.3 4.5 2.5 4.5 5.1"></path></svg></div>
+          <h3 style="font-size:1.05rem;margin-top:var(--sp-1);">Embedded Delivery</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">I run — or coach your team through — sprints, standups, and stakeholder reporting, with as much day-to-day involvement as you need.</p>
         </div>
-        <div class="card case-card reveal">
-          <span class="tag">Startup MVP</span>
-          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">Ticket Booking Portal</h3>
-          <p style="color:var(--text-muted);font-size:0.9rem;">Full lifecycle delivered independently in 1.5 months with no internal PM support.</p>
+        <div class="card process-card reveal">
+          <span class="step-num">03</span>
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg></div>
+          <h3 style="font-size:1.05rem;margin-top:var(--sp-1);">Launch &amp; Handover</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">Ship on schedule, then hand off clean documentation and a process your team can keep running without me.</p>
         </div>
-      </div>
-      <div style="margin-top:var(--sp-4);">
-        <a class="btn btn--secondary" href="case-studies.html">See all case studies</a>
       </div>
     </div>
   </section>
 
-  <section class="section-alt">
-    <div class="container" style="text-align:center;">
-      <div class="reveal">
-        <h2 style="max-width:22ch;margin:0 auto;">Let's ship your next release on schedule.</h2>
-        <p class="lead" style="margin:var(--sp-2) auto 0;max-width:50ch;">Tell me what you're building and where delivery is stuck — I'll tell you honestly whether fractional PM support is the right fix.</p>
-        <div class="btn-row" style="justify-content:center;margin-top:var(--sp-4);">
-          <a class="btn btn--primary" href="contact.html">Get in Touch</a>
+  <!-- ===================== STATS ===================== -->
+  <section class="stat-band">
+    <div class="container">
+      <div class="grid-4 reveal">
+        <div class="stat-box">
+          <div class="num">11+</div>
+          <div class="label">Years in IT &amp; software delivery</div>
         </div>
+        <div class="stat-box">
+          <div class="num">7+</div>
+          <div class="label">Years leading AI &amp; enterprise delivery</div>
+        </div>
+        <div class="stat-box">
+          <div class="num">3,000+</div>
+          <div class="label">Active users on current AI platform</div>
+        </div>
+        <div class="stat-box">
+          <div class="num">99.9%</div>
+          <div class="label">Uptime maintained across delivery</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TOOL SETUP ===================== -->
+  <section id="tool-setup">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">How Delivery Actually Runs</p></div>
+        <h2>The tools I set up on day one</h2>
+        <p class="lead">Standardized workflows and automated reporting — the setup that cut planning overhead by 5+ hours a week on my current engagement.</p>
+      </div>
+      <div class="grid-4">
+        <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"></rect><rect x="9" y="2" width="6" height="4" rx="1"></rect><line x1="8" y1="11" x2="16" y2="11"></line><line x1="8" y1="15" x2="16" y2="15"></line></svg></div>
+          <h3 style="font-size:1rem;">Jira &amp; Trello</h3>
+          <p style="color:var(--text-muted);font-size:0.88rem;">Sprint planning, backlog grooming, and release tracking — split into developer and operations workspaces.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="18" cy="9" r="2.3"></circle><path d="M15.5 14.2c2.6.3 4.5 2.5 4.5 5.1"></path></svg></div>
+          <h3 style="font-size:1rem;">Teams &amp; Claude</h3>
+          <p style="color:var(--text-muted);font-size:0.88rem;">Daily standups, stakeholder reporting, and AI-assisted documentation inside the Scrum framework.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M6 17a4 4 0 010-8 5 5 0 019.6-1.5A4.5 4.5 0 0118 17H6z"></path></svg></div>
+          <h3 style="font-size:1rem;">Azure, AWS &amp; GCP</h3>
+          <p style="color:var(--text-muted);font-size:0.88rem;">Multi-cloud coordination with DevOps — 99.9% uptime, 15% lower monthly cloud costs.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><polygon points="13 2 4 14 11 14 10 22 20 10 13 10 13 2"></polygon></svg></div>
+          <h3 style="font-size:1rem;">Bubble, FlutterFlow &amp; Retool</h3>
+          <p style="color:var(--text-muted);font-size:0.88rem;">No-code / low-code MVP builds — fast, disciplined execution with full QA and UAT.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section-alt" id="about">
+    <div class="container">
+      <div class="reveal" style="display:flex; gap:var(--sp-6); align-items:center; flex-wrap:wrap; margin-bottom:var(--sp-6);">
+        <div class="hero-visual" style="margin:0 auto;">
+          <div class="hero-photo" style="width:200px;height:240px;"><img src="photo/naziarasool.png" alt="Nazia Rasool" width="200" height="240" /></div>
+          <div class="hero-floating-badge">
+            <div class="num">11+</div>
+            <div class="label">Years Delivering</div>
+          </div>
+        </div>
+        <div style="flex:1; min-width:300px;">
+          <div class="kicker"><span class="bar"></span><p class="eyebrow">About Me</p></div>
+          <h2>Nazia Rasool</h2>
+          <p style="color:var(--text-muted);font-size:1rem;margin-top:0.3rem;">PMP® Certified Project Manager · AI &amp; Software Delivery Specialist · Lahore, Pakistan</p>
+          <p style="margin-top:var(--sp-3);">
+            I'm a PMP®-certified Technical Project Manager with 11 years of IT experience, including 7 years leading
+            enterprise-level digital transformation, AI-powered initiatives, and complex software projects across
+            Fintech, Telehealth, On-demand Economy, and eCommerce industries. I manage the full project lifecycle
+            from ideation to launch, integrate AI tools into delivery, and bridge business objectives with
+            cutting-edge AI capabilities to ship scalable, compliant, and impactful solutions.
+          </p>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <h3 style="font-size:1.1rem;margin-bottom:var(--sp-2);">What makes me different</h3>
+        <ul class="checklist-grid">
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><polyline points="9 12 11 14 15 10"></polyline></svg><span>PMP® &amp; Scrum Master certified · 11+ years IT experience</span></li>
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><polyline points="9 12 11 14 15 10"></polyline></svg><span>AI governance, data handling &amp; risk controls for regulated industries</span></li>
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><polyline points="9 12 11 14 15 10"></polyline></svg><span>Delivery across Fintech, Telehealth, On-demand Economy &amp; eCommerce</span></li>
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><polyline points="9 12 11 14 15 10"></polyline></svg><span>Multi-cloud coordination across Azure, AWS &amp; Google Cloud</span></li>
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><polyline points="9 12 11 14 15 10"></polyline></svg><span>Hands-on AI/LLM delivery — 8 models evaluated, 25% accuracy gain</span></li>
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><polyline points="9 12 11 14 15 10"></polyline></svg><span>Full Scrum framework via Jira, Trello, Teams &amp; Claude</span></li>
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><polyline points="9 12 11 14 15 10"></polyline></svg><span>99.9% uptime maintained with 15% cloud cost reduction</span></li>
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><polyline points="9 12 11 14 15 10"></polyline></svg><span>Delivery experience across Pakistan &amp; the GCC (Saudi Arabia)</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS / CASE STUDIES ===================== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">Selected Work</p></div>
+        <h2>Projects I've delivered as Technical Project Manager</h2>
+        <p class="lead">Seven engagements across AI products, fintech platforms, and enterprise digitization — filter by category or open a card for the full delivery story.</p>
+      </div>
+
+      <div class="filter-bar reveal" id="filterBar" role="group" aria-label="Filter case studies by category">
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="ai-saas" aria-pressed="false">AI &amp; SaaS</button>
+        <button type="button" data-filter="fintech" aria-pressed="false">Fintech</button>
+        <button type="button" data-filter="enterprise" aria-pressed="false">Enterprise</button>
+        <button type="button" data-filter="startup-mvp" aria-pressed="false">Startup MVP</button>
+      </div>
+
+      <div class="grid-3">
+
+        <article class="card case-card reveal" data-category="ai-saas">
+          <div class="case-thumb" aria-hidden="true">VX</div>
+          <span class="tag">AI &amp; SaaS</span>
+          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">Voxbee.ai — Content Creation OS</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">AI-powered multimedia OS serving 3,000+ active users. 99.9% uptime, 30% faster sprint velocity.</p>
+          <button type="button" class="detail-trigger" data-open-modal>View Details →</button>
+          <div class="case-detail">
+            <span class="tag">AI &amp; SaaS</span>
+            <h2 style="font-size:1.4rem;margin-top:var(--sp-2);">Voxbee.ai — AI-Powered Content Creation OS</h2>
+            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:0.2rem;">Xccelerated AI, Lahore · Technical Project Manager · 04/2026 – Present</p>
+            <p style="margin-top:var(--sp-2);">Leading end-to-end delivery of an AI-powered content creation OS for a fast-moving AI startup, managing a cross-functional team of 7 and reporting directly to the CEO and CTO.</p>
+            <ul style="padding-left:1.1rem;color:var(--text-muted);font-size:0.94rem;">
+              <li style="margin-bottom:0.45rem;">Serving 3,000+ active users across the platform.</li>
+              <li style="margin-bottom:0.45rem;">Coordinated cloud infrastructure across Azure, AWS, and Google Cloud — 99.9% uptime, 15% lower monthly cloud costs.</li>
+              <li style="margin-bottom:0.45rem;">Implemented the full Scrum framework (all 4 ceremonies) using Jira, Trello, Claude, and Teams — sprint velocity up 30%, on-time delivery up from 70% to 90%.</li>
+              <li style="margin-bottom:0.45rem;">Evaluated 8 AI models pre-implementation and drove prompt engineering improvements — output accuracy up 25%, generation errors down 40%.</li>
+              <li>Shipped a Marketing OS and a Video &amp; Image Editor within a single month via a custom Parallel Documentation Framework — 40% faster feature delivery.</li>
+            </ul>
+            <span class="outcomes-label">Outcomes</span>
+            <p class="outcomes-row">3,000+ users · 99.9% uptime · 30% faster velocity · 40% faster releases</p>
+          </div>
+        </article>
+
+        <article class="card case-card reveal" data-category="ai-saas">
+          <div class="case-thumb" aria-hidden="true">AI</div>
+          <span class="tag">AI &amp; SaaS</span>
+          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">AI Sales Agent (B2B)</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">Independent 3-month delivery across product, engineering, and AI development workstreams.</p>
+          <button type="button" class="detail-trigger" data-open-modal>View Details →</button>
+          <div class="case-detail">
+            <span class="tag">AI &amp; SaaS</span>
+            <h2 style="font-size:1.4rem;margin-top:var(--sp-2);">AI Sales Agent (B2B)</h2>
+            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:0.2rem;">Freelance, Self-Employed · Project Manager · 3-month engagement</p>
+            <p style="margin-top:var(--sp-2);">Managed delivery of a B2B AI Sales Agent project, coordinating product, engineering, and AI development workstreams for an early-stage team with no internal PM.</p>
+            <span class="outcomes-label">Outcomes</span>
+            <p class="outcomes-row">Shipped in 3 months · No internal PM support</p>
+          </div>
+        </article>
+
+        <article class="card case-card reveal" data-category="fintech">
+          <div class="case-thumb" aria-hidden="true">BL</div>
+          <span class="tag">Fintech</span>
+          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">Bank Loan Processing Portal</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">4.5-month build for an early-stage fintech startup, owned from kickoff to launch.</p>
+          <button type="button" class="detail-trigger" data-open-modal>View Details →</button>
+          <div class="case-detail">
+            <span class="tag">Fintech</span>
+            <h2 style="font-size:1.4rem;margin-top:var(--sp-2);">Bank Loan Processing Portal</h2>
+            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:0.2rem;">Freelance, Self-Employed · Project Manager · 4.5-month engagement</p>
+            <p style="margin-top:var(--sp-2);">Led a 4.5-month Bank Loan Processing Portal build for an early-stage fintech startup, owning scope, timeline, and stakeholder communication from kickoff to launch.</p>
+            <span class="outcomes-label">Outcomes</span>
+            <p class="outcomes-row">Kickoff to launch in 4.5 months</p>
+          </div>
+        </article>
+
+        <article class="card case-card reveal" data-category="enterprise">
+          <div class="case-thumb" aria-hidden="true">PM</div>
+          <span class="tag">Enterprise</span>
+          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">Procurement Manager Platform</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">Business requirements translated into a scoped technical roadmap in 3 months.</p>
+          <button type="button" class="detail-trigger" data-open-modal>View Details →</button>
+          <div class="case-detail">
+            <span class="tag">Enterprise</span>
+            <h2 style="font-size:1.4rem;margin-top:var(--sp-2);">Procurement Manager Platform</h2>
+            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:0.2rem;">Freelance, Self-Employed · Project Manager · 3-month engagement</p>
+            <p style="margin-top:var(--sp-2);">Delivered a Procurement Manager platform for an IT asset management service provider in 3 months, translating business requirements into a scoped technical roadmap.</p>
+            <span class="outcomes-label">Outcomes</span>
+            <p class="outcomes-row">Scoped roadmap to delivery in 3 months</p>
+          </div>
+        </article>
+
+        <article class="card case-card reveal" data-category="startup-mvp">
+          <div class="case-thumb" aria-hidden="true">TB</div>
+          <span class="tag">Startup MVP</span>
+          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">Ticket Booking Portal</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">Full lifecycle delivered independently in just 1.5 months, no internal PM support.</p>
+          <button type="button" class="detail-trigger" data-open-modal>View Details →</button>
+          <div class="case-detail">
+            <span class="tag">Startup MVP</span>
+            <h2 style="font-size:1.4rem;margin-top:var(--sp-2);">Ticket Booking Portal</h2>
+            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:0.2rem;">Freelance, Self-Employed · Project Manager · 1.5-month engagement</p>
+            <p style="margin-top:var(--sp-2);">Project-managed a Ticket Booking Portal to completion in just 1.5 months, running the full lifecycle independently with no internal PM support.</p>
+            <span class="outcomes-label">Outcomes</span>
+            <p class="outcomes-row">Full lifecycle in 1.5 months, solo-run</p>
+          </div>
+        </article>
+
+        <article class="card case-card reveal" data-category="fintech">
+          <div class="case-thumb" aria-hidden="true">AR</div>
+          <span class="tag">Fintech</span>
+          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">Alrajhi Bank Customer Services App</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">Digital transformation delivery for Saudi Arabia's largest banking platform, at PwC.</p>
+          <button type="button" class="detail-trigger" data-open-modal>View Details →</button>
+          <div class="case-detail">
+            <span class="tag">Fintech</span>
+            <h2 style="font-size:1.4rem;margin-top:var(--sp-2);">Alrajhi Bank — Customer Services App</h2>
+            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:0.2rem;">PwC, Riyadh, KSA · Project Manager · 05/2022 – 04/2023</p>
+            <p style="margin-top:var(--sp-2);">Managed digital transformation delivery for Al-Rajhi Bank's Customer Services App, Saudi Arabia's largest banking platform, owning vendor relationships, Agile delivery, and executive reporting.</p>
+            <ul style="padding-left:1.1rem;color:var(--text-muted);font-size:0.94rem;">
+              <li style="margin-bottom:0.45rem;">Led the digital transformation, coordinating cross-functional delivery to meet scope, timeline, and quality targets.</li>
+              <li style="margin-bottom:0.45rem;">Enhanced vendor coordination and compliance, improving delivery efficiency and accountability.</li>
+              <li>Prepared executive-ready materials for steering committees while supporting financial tracking and vendor governance.</li>
+            </ul>
+            <span class="outcomes-label">Outcomes</span>
+            <p class="outcomes-row">Saudi Arabia's largest banking platform</p>
+          </div>
+        </article>
+
+        <article class="card case-card reveal" data-category="enterprise">
+          <div class="case-thumb" aria-hidden="true">DQ</div>
+          <span class="tag">Enterprise</span>
+          <h3 style="font-size:1.1rem;margin-top:var(--sp-2);">Diplomat Riyadh HQ Digitization</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">End-to-end digitization of the Riyadh Diplomatic Quarter, scope through go-live.</p>
+          <button type="button" class="detail-trigger" data-open-modal>View Details →</button>
+          <div class="case-detail">
+            <span class="tag">Enterprise</span>
+            <h2 style="font-size:1.4rem;margin-top:var(--sp-2);">Diplomat Riyadh Headquarters Digitization</h2>
+            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:0.2rem;">Taremeez Co., Riyadh, KSA · Project Manager · 03/2020 – 02/2022</p>
+            <p style="margin-top:var(--sp-2);">Led the digitization of the Riyadh Diplomatic Quarter, owning scope, Agile delivery, and stakeholder alignment from kickoff through go-live.</p>
+            <ul style="padding-left:1.1rem;color:var(--text-muted);font-size:0.94rem;">
+              <li style="margin-bottom:0.45rem;">Defined goals, scope, cost, resources, and timelines, delivering aligned with business objectives.</li>
+              <li style="margin-bottom:0.45rem;">Facilitated Agile sprints and daily stand-ups across development and business teams.</li>
+              <li>Mentored team members and oversaw QA and pre-UAT testing before launch.</li>
+            </ul>
+            <span class="outcomes-label">Outcomes</span>
+            <p class="outcomes-row">Kickoff through go-live, 2-year program</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="section-alt" id="testimonials">
+    <div class="container">
+      <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">What Clients Are Saying</p></div>
+        <h2>Client testimonials</h2>
+      </div>
+      <div class="testimonial-placeholder reveal">
+        <span class="quote-mark">"</span>
+        <p>Client testimonials will be featured here as engagements are completed and reviewed — in the meantime,
+          feel free to check recommendations on LinkedIn.</p>
+        <a class="btn btn--secondary" href="https://www.linkedin.com/in/nazia-rasool/" target="_blank" rel="noopener" style="margin-top:var(--sp-2);">View LinkedIn Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">Experience</p></div>
+        <h2>From developer to delivery leader</h2>
+        <p class="lead">Steady progression in ownership, scale, and impact — expand any role for the full story.</p>
+      </div>
+
+      <div class="reveal">
+
+        <details class="accordion-item" open>
+          <summary>
+            <span class="timeline-summary">
+              <span class="role">Technical Project Manager</span>
+              <span class="meta">Xccelerated AI, Lahore · 04/2026 — Present</span>
+            </span>
+            <span class="timeline-badges"><span class="badge">Current</span></span>
+            <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </summary>
+          <div class="accordion-body">
+            <p class="desc">Project: Voxbee.ai — AI-Powered Content Creation OS. Leading end-to-end delivery serving 3,000+ active users, managing a cross-functional team of 7 and reporting directly to the CEO and CTO.</p>
+            <ul>
+              <li>Coordinate cloud infrastructure across Azure, AWS, and Google Cloud — 99.9% uptime, 15% lower monthly cloud costs.</li>
+              <li>Full Scrum framework (4 ceremonies) via Jira, Trello, Claude, and Teams — sprint velocity +30%, on-time delivery 70% → 90%.</li>
+              <li>Evaluated 8 AI models pre-implementation — output accuracy +25%, generation errors −40%.</li>
+              <li>Streamlined PM processes — planning overhead down 5+ hrs/week, release cycles from 4 to 2 weeks.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-item">
+          <summary>
+            <span class="timeline-summary">
+              <span class="role">Project Manager</span>
+              <span class="meta">Freelance, Self-Employed · 04/2025 — 03/2026</span>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </summary>
+          <div class="accordion-body">
+            <p class="desc">Delivered independent project management for early-stage startups across AI, fintech, and logistics.</p>
+            <ul>
+              <li>AI Sales Agent (B2B) — 3-month engagement across product, engineering, and AI development workstreams.</li>
+              <li>Bank Loan Processing Portal — 4.5-month fintech build, owned from kickoff to launch.</li>
+              <li>Procurement Manager platform — 3 months, IT asset management service provider.</li>
+              <li>Ticket Booking Portal — 1.5 months, full lifecycle run independently.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-item">
+          <summary>
+            <span class="timeline-summary">
+              <span class="role">Parenting Break</span>
+              <span class="meta">05/2023 — 03/2025</span>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </summary>
+          <div class="accordion-body">
+            <p class="desc">Professional engagement during career break.</p>
+            <ul>
+              <li>Renewed PMP certification, strengthening project governance expertise.</li>
+              <li>Enhanced strategic thinking and decision-making through continuous learning.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-item">
+          <summary>
+            <span class="timeline-summary">
+              <span class="role">Project Manager</span>
+              <span class="meta">PwC, Riyadh, KSA · 05/2022 — 04/2023</span>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </summary>
+          <div class="accordion-body">
+            <p class="desc">Project: Alrajhi Bank — Customer Services App. Managed digital transformation delivery for Saudi Arabia's largest banking platform, owning vendor relationships, Agile delivery, and executive reporting.</p>
+            <ul>
+              <li>Led the digital transformation, coordinating cross-functional delivery to meet scope, timeline, and quality targets.</li>
+              <li>Enhanced vendor coordination and compliance, improving delivery efficiency and accountability.</li>
+              <li>Prepared executive-ready materials for steering committees; supported financial tracking and vendor governance.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-item">
+          <summary>
+            <span class="timeline-summary">
+              <span class="role">Project Manager</span>
+              <span class="meta">Taremeez Co., Riyadh, KSA · 03/2020 — 02/2022</span>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </summary>
+          <div class="accordion-body">
+            <p class="desc">Project: Diplomat Riyadh Headquarters Digitization. Led the digitization of the Riyadh Diplomatic Quarter, owning scope, Agile delivery, and stakeholder alignment from kickoff through go-live.</p>
+            <ul>
+              <li>Defined goals, scope, cost, resources, and timelines, delivering aligned with business objectives.</li>
+              <li>Facilitated Agile sprints and daily stand-ups across development and business teams.</li>
+              <li>Mentored team members and oversaw QA and pre-UAT testing before launch.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-item">
+          <summary>
+            <span class="timeline-summary">
+              <span class="role">Project Manager</span>
+              <span class="meta">AppsGenii Technologies (Pvt) Ltd, Lahore · 03/2017 — 11/2019</span>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </summary>
+          <div class="accordion-body">
+            <p class="desc">Owned end-to-end delivery across multiple concurrent projects, bringing a business analysis background into Agile project leadership.</p>
+            <ul>
+              <li>Led end-to-end delivery for multiple concurrent projects from ideation to closure.</li>
+              <li>Facilitated Agile ceremonies and developed project plans, budgets, and timelines.</li>
+              <li>Strengthened stakeholder confidence through transparent communication and reliable, on-time execution.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-item">
+          <summary>
+            <span class="timeline-summary">
+              <span class="role">Earlier Career</span>
+              <span class="meta">Lahore, Pakistan · 01/2013 — 01/2017</span>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </summary>
+          <div class="accordion-body">
+            <ul class="earlier-list">
+              <li><span>Software Engineer, Nextbridge (Pvt) Ltd</span><span class="role-dur">02/2015 — 01/2017</span></li>
+              <li><span>Web Developer, Sheensol Technologies (Pvt) Ltd</span><span class="role-dur">01/2013 — 12/2014</span></li>
+            </ul>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section-alt" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">Skills</p></div>
+        <h2>Proven expertise</h2>
+      </div>
+      <div class="reveal" style="display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:var(--sp-6);">
+        <span class="pill">AI &amp; LLM Project Management</span>
+        <span class="pill">Stakeholder Communication &amp; Client Engagement</span>
+        <span class="pill">Strategic Project Planning &amp; Roadmapping</span>
+        <span class="pill">Machine Learning Project Delivery</span>
+        <span class="pill">Agile &amp; Scrum Leadership</span>
+        <span class="pill">Cross-functional Team Management</span>
+        <span class="pill">Technical Fluency</span>
+        <span class="pill">AI Governance &amp; Risk Management</span>
+        <span class="pill">Cloud Platforms (AWS, Azure, GCP)</span>
+      </div>
+
+      <div class="section-head reveal">
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">Credentials</p></div>
+        <h2>Education &amp; certifications</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card cert-card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M12 2l7 3v6c0 5-3.2 8.5-7 11-3.8-2.5-7-6-7-11V5z"></path><polyline points="9 12 11 14 15 10"></polyline></svg></div>
+          <span class="badge" style="width:fit-content;">Certified</span>
+          <span class="cert-title">Project Management Professional (PMP®)</span>
+          <span class="issuer">PMI</span>
+        </div>
+        <div class="card cert-card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M12 2l7 3v6c0 5-3.2 8.5-7 11-3.8-2.5-7-6-7-11V5z"></path><polyline points="9 12 11 14 15 10"></polyline></svg></div>
+          <span class="badge" style="width:fit-content;">Certified</span>
+          <span class="cert-title">Scrum Master Certificate of Proficiency</span>
+          <span class="issuer">Scrum Alliance</span>
+        </div>
+        <div class="card cert-card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M12 2l7 3v6c0 5-3.2 8.5-7 11-3.8-2.5-7-6-7-11V5z"></path><polyline points="9 12 11 14 15 10"></polyline></svg></div>
+          <span class="badge" style="width:fit-content;">Certified</span>
+          <span class="cert-title">Women in Leadership — Professional Development</span>
+          <span class="issuer">Professional Development</span>
+        </div>
+        <div class="card cert-card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M22 10L12 4 2 10l10 6 10-6z"></path><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"></path></svg></div>
+          <span class="cert-title">Master's in Computer Science (MSCS)</span>
+          <span class="issuer">Superior University, Lahore — 2016</span>
+        </div>
+        <div class="card cert-card reveal">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M22 10L12 4 2 10l10 6 10-6z"></path><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"></path></svg></div>
+          <span class="cert-title">Bachelor's in Computer Science (BSCS)</span>
+          <span class="issuer">Superior University, Lahore — 2013</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">Get in Touch</p></div>
+        <h2>Let's talk about your delivery</h2>
+        <p class="lead">Whether you're launching an AI MVP, scaling delivery, or need fractional technical leadership — tell me what you're building and where it's stuck. I reply within 1 business day.</p>
+      </div>
+
+      <div class="grid-2" style="align-items:flex-start;">
+
+        <div class="reveal">
+          <div class="card" style="border-left:3px solid var(--accent);margin-bottom:var(--sp-3);">
+            <span class="status-pill"><span class="dot"></span>Open to new fractional engagements</span>
+            <p style="color:var(--text-muted);font-size:0.88rem;margin-top:0.6rem;margin-bottom:0;">Hourly, retainer, or fixed-fee — whatever fits your stage.</p>
+          </div>
+
+          <div class="card" style="margin-bottom:var(--sp-3);">
+            <div class="info-row">
+              <svg viewBox="0 0 24 24"><path d="M12 22s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+              <div><span class="k">Location</span>Lahore, Pakistan</div>
+            </div>
+            <div class="info-row">
+              <svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="12" rx="2"></rect><path d="M8 8V6a2 2 0 012-2h4a2 2 0 012 2v2"></path><line x1="3" y1="13" x2="21" y2="13"></line></svg>
+              <div><span class="k">Engagement Models</span>Hourly · Retainer · Fixed-Fee</div>
+            </div>
+            <div class="info-row">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 16 14"></polyline></svg>
+              <div><span class="k">Response Time</span>Within 1 business day</div>
+            </div>
+            <div class="info-row">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><line x1="3" y1="12" x2="21" y2="12"></line><path d="M12 3a14 14 0 010 18 14 14 0 010-18z"></path></svg>
+              <div><span class="k">Delivery Experience</span>Pakistan &amp; GCC (Saudi Arabia)</div>
+            </div>
+          </div>
+
+          <p style="font-size:var(--fs-caption);text-transform:uppercase;letter-spacing:0.1em;color:var(--text-muted);font-weight:700;margin-bottom:var(--sp-2);">Or reach me directly</p>
+
+          <a class="contact-method" href="mailto:naziarasool28@gmail.com">
+            <div class="icon-badge"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><polyline points="3 7 12 13 21 7"></polyline></svg></div>
+            <div>
+              <div class="title-row">Email <span class="badge">Reply within 1 day</span></div>
+              <div class="sub">naziarasool28@gmail.com</div>
+            </div>
+          </a>
+          <a class="contact-method" href="tel:+923014440452">
+            <div class="icon-badge"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"></rect><line x1="11" y1="18" x2="13" y2="18"></line></svg></div>
+            <div>
+              <div class="title-row">Phone</div>
+              <div class="sub">0301-4440452</div>
+            </div>
+          </a>
+          <a class="contact-method" href="https://www.linkedin.com/in/nazia-rasool/" target="_blank" rel="noopener">
+            <div class="icon-badge"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"></rect><line x1="7" y1="10" x2="7" y2="17"></line><circle cx="7" cy="7" r="1"></circle><line x1="11" y1="10" x2="11" y2="17"></line><path d="M11 13c0-1.7 1.3-3 3-3s3 1.3 3 3v4"></path></svg></div>
+            <div>
+              <div class="title-row">LinkedIn</div>
+              <div class="sub">Connect or send a message</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card reveal">
+          <h3 style="font-size:1.3rem;">Send me a message</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">Quick, simple, and I reply within 1 business day.</p>
+          <form id="contactForm" novalidate style="margin-top:var(--sp-3);">
+            <div class="grid-2" style="gap:var(--sp-2);">
+              <div class="field">
+                <label for="name">Your name <span class="req">*</span></label>
+                <input type="text" id="name" name="name" autocomplete="name" required aria-required="true" placeholder="Your full name" />
+                <p class="error-msg" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="email">Email address <span class="req">*</span></label>
+                <input type="email" id="email" name="email" autocomplete="email" required aria-required="true" placeholder="your@email.com" />
+                <p class="error-msg" role="alert"></p>
+              </div>
+            </div>
+            <div class="field">
+              <label for="reason">What's this about?</label>
+              <select id="reason" name="reason">
+                <option value="Fractional PM &amp; Agile Leadership">Fractional PM &amp; Agile Leadership</option>
+                <option value="AI &amp; LLM Project Management">AI &amp; LLM Project Management</option>
+                <option value="Fractional Product Owner">Fractional Product Owner</option>
+                <option value="MVP Launch Management">MVP Launch Management</option>
+                <option value="General Inquiry">General Inquiry</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="subject">Subject <span class="req">*</span></label>
+              <input type="text" id="subject" name="subject" required aria-required="true" placeholder="What's this about?" />
+              <p class="error-msg" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="message">Message <span class="req">*</span></label>
+              <textarea id="message" name="message" required aria-required="true" placeholder="Tell me about your project — the more detail you share, the better I can respond."></textarea>
+              <p class="error-msg" role="alert"></p>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block">
+              Send Message
+              <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+            <p class="hint" style="margin-top:var(--sp-2);">
+              This form opens your email client with the message pre-filled — connect it to a service like
+              Formspree or Netlify Forms for direct inbox delivery once deployed.
+            </p>
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="section-alt">
+    <div class="container container--narrow">
+      <div class="section-head reveal">
+        <div class="kicker"><span class="bar"></span><p class="eyebrow">FAQ</p></div>
+        <h2>Frequently asked questions</h2>
+        <p class="lead">Everything clients usually ask before we start.</p>
+      </div>
+
+      <div class="reveal">
+        <details class="accordion-item">
+          <summary>What engagement models do you accept?<svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+          <div class="accordion-body"><p class="desc">Hourly, retainer, or fixed-fee — whichever fits your stage and budget. Most clients start with a fractional hourly arrangement (10–20 hrs/week) and move to retainer once the engagement proves out. Fixed-fee is typical for scoped MVP launches.</p></div>
+        </details>
+        <details class="accordion-item">
+          <summary>Which industries have you delivered in?<svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+          <div class="accordion-body"><p class="desc">Fintech, Telehealth, On-demand Economy, and eCommerce, plus enterprise digitization and government-adjacent programs — including Saudi Arabia's largest banking platform and a diplomatic headquarters digitization project.</p></div>
+        </details>
+        <details class="accordion-item">
+          <summary>How do you use AI in delivery?<svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+          <div class="accordion-body"><p class="desc">Hands-on — evaluating AI models before implementation, driving prompt engineering improvements with AI developers, and using AI tools inside the Scrum framework itself to cut planning overhead. See the Tool Setup section for specifics.</p></div>
+        </details>
+        <details class="accordion-item">
+          <summary>Do you work with teams outside Pakistan?<svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+          <div class="accordion-body"><p class="desc">Yes — based in Lahore, Pakistan, with delivery experience across the GCC (Saudi Arabia) and remote client engagements. Happy to discuss time zone overlap on a call.</p></div>
+        </details>
+        <details class="accordion-item">
+          <summary>What's the fastest way to get a response?<svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+          <div class="accordion-body"><p class="desc">Email or the form above — both are checked directly and answered within 1 business day.</p></div>
+        </details>
       </div>
     </div>
   </section>
@@ -230,7 +841,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a class="brand" href="index.html">Nazia <span>Rasool</span></a>
+        <a class="brand" href="#top">Nazia <span>Rasool</span></a>
         <p>Fractional project management for AI &amp; tech startups — senior delivery leadership without the full-time hire.</p>
         <div class="social-row">
           <a href="https://www.linkedin.com/in/nazia-rasool/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
@@ -242,10 +853,10 @@
       <div>
         <h4>Explore</h4>
         <ul>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="tool-setup.html">Tool Setup</a></li>
-          <li><a href="case-studies.html">Case Studies</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
         </ul>
       </div>
       <div>
@@ -253,7 +864,7 @@
         <ul>
           <li><a href="mailto:naziarasool28@gmail.com">naziarasool28@gmail.com</a></li>
           <li><a href="tel:+923014440452">0301-4440452</a></li>
-          <li><a href="contact.html">Contact page →</a></li>
+          <li><a href="#contact">Contact →</a></li>
         </ul>
       </div>
     </div>
@@ -271,6 +882,14 @@
     <span>Agile Transformation</span>
   </div>
   <span class="status-pill"><span class="dot"></span>Open to new fractional engagements</span>
+</div>
+
+<div class="modal" id="caseModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Case study details">
+  <div class="modal-backdrop" data-modal-close></div>
+  <div class="modal-dialog">
+    <button type="button" class="modal-close" data-modal-close aria-label="Close details">✕</button>
+    <div data-modal-body></div>
+  </div>
 </div>
 
 <script src="script.js"></script>
